@@ -1,3 +1,4 @@
+[Discussion Post (created on 1/2/2022 at 2:19)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/1807730/sharing-my-easy-to-understand-CPP-code)  
 [Discussion Post (created on 1/2/2022 at 2:18)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/1807728/sharing-my-cpp-code-simple-to-understand)  
 <h2>  Remove Duplicates from Sorted Array</h2><hr><div><p>Given an integer array <code>nums</code> sorted in <strong>non-decreasing order</strong>, remove the duplicates <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a> such that each unique element appears only <strong>once</strong>. The <strong>relative order</strong> of the elements should be kept the <strong>same</strong>.</p>
 
