@@ -14,7 +14,7 @@ public:
        }
         else if(target==num[mid]){
         ans=mid;
-          break;
+          return mid;
         }
         
       }
