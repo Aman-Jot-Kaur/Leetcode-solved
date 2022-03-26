@@ -5,7 +5,7 @@ public:
       int ans=INT_MAX;
       int mid=(low+high)/2;
       while(low<=high){
-      mid=low+(high-low+1)/2;
+      mid=(low+high)/2;
         if(target<num[mid]){
           high=mid-1;
         }
