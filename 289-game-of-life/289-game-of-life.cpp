@@ -1,12 +1,12 @@
 class Solution {
 public:
-    //  funcion to check validility of neighbor
+    
     bool isValidNeighbor(int x, int y, vector<vector<int>>& board) {
         return (x >= 0 && x < board.size() && y >= 0 && y < board[0].size());
     }
     
     void gameOfLife(vector<vector<int>>& board) { 
-        vector<int> dx = {0, 0, 1, 1, 1, -1, -1, -1}; //8 coordinated for neighbours
+        vector<int> dx = {0, 0, 1, 1, 1, -1, -1, -1}; 
         vector<int> dy = {1, -1, 1, -1, 0, 0, 1, -1};
         
         for (int row = 0; row < board.size(); row++) {
